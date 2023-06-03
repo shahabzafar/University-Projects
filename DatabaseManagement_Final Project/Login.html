@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+        
+        <link rel = "stylesheet" href= "Login.css" type = "text/css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title> Online Outlet </title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Lobster&family=Rubik+Moonrocks&display=swap');
+        </style>
+    <link rel="stylesheet" href="HomePage.css" />
+</head>
+
+
+<!--  java script from boot strap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+        integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+        crossorigin="anonymous"></script>
+
+
+
+
+<!-- Navigation bar from boot strap-->
+<nav class="navbar-expand-lg navbar-light">
+
+
+    <div class="navbar-collapse collapse justify-content-end" id="navbarNavDropdown"
+    style="background: linear-gradient(to right, white, rgb(132, 168, 197)); height: 70px;">
+        <div style="margin-right: 25cm;">
+            <a href="HomePage.html"> <img src="Logo.png" style="height: 60pt; width: 60pt; position: relative; right: 120px;"> </a>
+        </div>
+        <ul class="nav nav-pills" style="padding-bottom: 7px;">
+
+            <li class="nav-item">
+                <a class="nav-link" href="HomePage.html" style="color: black; font-family: 'Courier New', Courier, monospace; font-size: larger; position: relative; bottom: 5px;"> <b>Home</b> </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="AboutUs.html" style="color: black; font-family: 'Courier New', Courier, monospace; font-size: larger; position: relative; bottom: 5px;"> <b>About</b> </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="ContactUs.html" style="color: black; font-family: 'Courier New', Courier, monospace; font-size: larger; position: relative; bottom: 5px;"> <b>Contact Us</b> </a>
+            </li>
+
+
+        </ul>
+
+    </div>
+</nav>
+
+<body style="background-color: rgb(255, 255, 255);">
+        <!-- <h1> Login with the user ID and start playing... </h1>
+        <br>
+    <div style="border: gold; border-width:6px; border-style:solid; width: 15cm; margin-left: 12.5cm;">
+        <fieldset >
+            <legend > Log In </legend>
+            <form id = "login" method = "POST" action = "Login.php">
+                Username: &nbsp; <input type = "text" name = "username" placeholder="Enter Username..."> <br><br>
+                Password:  &ensp; <input type = "password" name = "password" placeholder="Enter Password..."> <br><br>
+                &emsp;&emsp;&emsp;&ensp;<input class="lg-button" type = "submit" value = "Log In" onclick = "location.href = 'Login.php'"> <br> <br>
+            </form>
+    
+            Setup User ID! <input class="signup-button" type = "submit" value = "Sign Up" onclick = "location.href = 'SignUp.html'">
+        </fieldset>
+    </div> -->
+
+
+<!-- Login form -->
+    <div class="main" style="font-family: 'Lobster';">
+
+        <fieldset>
+
+        <p class="sign" align="center" style="font-family: 'Lobster';">Sign in</p>
+
+        <form class="form1" method = "POST" action = "Login.php" > 
+          <input class="un " type="text" align="center" name = "username" placeholder="Username">
+          <input class="pass" type="password" align="center" name = "password" placeholder="Password">
+          <input class="submit-login" align="center" type = "submit" style="font-family: 'Lobster';" value = "Sign In" onclick = "location.href = 'Login.php'"> <br> <br>
+        </form>
+
+          <p class="SignUp-SignIn" align="center"><a href="SignUp.html">Create an account</p>  
+
+        </fieldset>    
+
+    </div>
+
+</body>
+
+<!-- footer -->
+<div class = "navbar navbar-dark bg-dark" style="background: linear-gradient(to right, white, rgb(132, 168, 197)); position: relative; top: 288px; height: 75px;">
+    <p id = "footer" style="color: black; font-family: 'Courier New', Courier, monospace; position: relative; right: 95px; top: 7px;"> © 2021 Copyright: O<sup>2</sup> Online Outlet, All Rights Reserved. </p>
+    <p class="paragraph" style="position: relative; top: 7px;">
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-instagram"></a>
+        <a href="#" class="fa fa-google"></a>
+    </p>
+</div>
+    
+
+       
+</html>

@@ -1,0 +1,119 @@
+/* menu lists */
+li {
+  margin-top: 15pt;
+}
+
+/* nav bar */
+.nav {
+  left:50%;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #e9e9e9;
+}
+
+/* size and position of logo */
+.logo{
+margin:15px 30px;
+height:70px;
+}
+
+.navbar-brand {
+  font-family: 'Brush Script MT', cursive;
+  color:coral;
+  font-size: 25pt;
+}
+
+.pull-right {
+  float: right;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.btns {
+  text-align: center;
+}
+
+/* alignment of slideshows */
+#slidea{
+  position: relative;
+  text-align: center;
+  color: white;
+}
+#slideb{
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+#slidec{
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+
+}
+
+h3.cap1 {
+    border-style: solid;
+  }
+
+  /* footer */
+  #footer {
+    color: gold;
+    padding-left: 15cm;
+    
+  }
+
+  /* social icons and their placement */
+  .fa {
+    padding: 5px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    }
+  
+    .fa-instagram {
+    background: #125688;
+    color: white;
+    }
+  
+    .fa-facebook {
+    background: #3B5998;
+    color: white;
+    }
+  
+    .fa-twitter {
+    background: #55ACEE;
+    color: white;
+    }
+    
+    .fa-google {
+    background: #dd4b39;
+    color: white;
+    }
+    .div2{
+      float: right;
+      text-align: right;
+      position: relative;
+      top: -375px;
+      left: 100px;
+      font-family: 'Lobster', cursive;
+      font-size: 55px;
+      color: white;
+    }
